@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Bài 1.12">
+	<meta name = "author" content="NTTrang"/>
+	<title>Tạo form và các điều khiển</title>
+</head>
+<body>
+	<h2 style="color:#04B45F ">Phiếu đăng ký tham gia chương trình khuyến mãi</h2>
+	<form>
+		<table border="1" cellpadding="0" cellspacing="0" style="background-color: #2EFE9A; color: #4B8A08" width="35%">
+			<tr>
+				<td>Họ và tên</td>
+				<td><input type="text" name="ht" size="20%"></td>
+			</tr>
+			<tr>
+				<td>Địa chỉ</td>
+				<td><input type="text" name="dc" size="18%"></td>
+			</tr>
+			<tr>
+				<td>Điện thoại</td>
+				<td><input type="text" name="dt" size="15%"></td>
+			</tr>
+			<tr>
+				<td>Phái</td>
+				<td>
+					Nam<input type="radio" name="gt" value="Nam">
+					Nữ<input type="radio" name="gt" value="Nữ">
+				</td>
+			</tr>
+			<tr>
+				<td>Nghề nghiệp</td>
+				<td>
+					<select>
+						<option value="Bác sĩ">Bác sĩ</option>
+						<option value="Kỹ sư">Kỹ sư</option>
+						<option value="Giáo viên">Giáo viên</option>
+						<option value="Khác">Khác</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Chọn sản phẩm tham gia</td>
+				<td>
+					<select size="4" multiple>
+						<option value="Kem đánh răng">Kem đánh răng</option>
+						<option value="Bôt giặt">Bôt giặt</option>
+						<option value="Dầu gội đầu">Dầu gội đầu</option>
+						<option value="Sữa tắm">Sữa tắm</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Số người dự đoán tham gia</td>
+				<td><input type="text" size="10%"></td>
+			</tr>
+			<tr>
+				<td align="center" colspan="2">
+					<button  type="button" onclick="vb()">Đồng ý</button>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<script>
+						function vb() {
+							document.getElementById("o").innerHTML = "Bạn đã đăng ký thành công!!!";
+						}
+					</script>
+					<p id="o" style="color: #FA5858" align="center"></p>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
