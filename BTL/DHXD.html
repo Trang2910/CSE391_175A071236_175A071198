@@ -6,7 +6,7 @@
 	<meta name = "author" content="NTTrang & TTThuy"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="shortcut icon" href="http://nuce.edu.vn/sites/default/files/logo_dhxd_tttt.png" type="image/png" />
-	<link type="text/css" rel="stylesheet" href="DHXD.css">
+	<link type="text/css" rel="stylesheet" href="css/DHXD.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
 	<script src="js/jquery-3.4.1.min.js"></script>	
@@ -15,7 +15,7 @@
 	<title>Đại học Xây Dựng</title>
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="container-fluid main">
 		<header>
 			<div id="first">
 				<nav class="menu1" >
@@ -23,6 +23,7 @@
 					<a href="">Cựu sinh viên</a>
 					<a href="">Thư viện</a>
 					<a href="">Khách tham quan</a>
+					<a href="">Ngôn ngữ</a>
 					<a><img src="http://nuce.edu.vn/sites/all/modules/languageicons/flags/vi.png" width="16" height="12" alt="Tiếng Việt" title="Tiếng Việt"></a>
 	                <a><img src="http://nuce.edu.vn/sites/all/modules/languageicons/flags/en.png" width="16" height="12" alt="English" title="English"></a>
 				</nav>
@@ -42,35 +43,33 @@
 				<div class="col-md-1">
 				</div>
 			</div>
-
 			<div>
 				<div class="row nav1">
-					<div class="col-md-2">
+					<div class="col-1"></div>
+					<div class="col-10">
+						<ul class="nav nav-pills nav-fill">
+						  <li class="nav-item">
+						    <a class="nav-link active" href="#">TRANG CHỦ</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#">GIỚI THIỆU</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#">TUYỂN SINH</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#">ĐÀO TẠO</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#">NGHIÊN CỨU KHOA HỌC</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="#">HỢP TÁC QUỐC TẾ</a>
+						  </li>
+						</ul>
 					</div>
-					<div class="col-md-8">
-						<div class="btn-group but" role="group">
-							<button class="btn btn-secondary" type="button">
-								TRANG CHỦ
-							</button> 
-							<button class="btn btn-secondary" type="button">
-								GIỚI THIỆU
-							</button> 
-							<button class="btn btn-secondary" type="button">
-								TUYỂN SINH
-							</button> 
-							<button class="btn btn-secondary" type="button">
-								ĐÀO TẠO
-							</button>
-							<button class="btn btn-secondary" type="button">
-								NGHIÊN CỨU KHOA HỌC
-							</button>
-							<button class="btn btn-secondary" type="button">
-								HỢP TÁC QUỐC TẾ
-							</button>
-						</div>
-					</div>
-					<div class="col-md-2">
-					</div>
+					<div class="col-1"></div>
+					
 				</div>
 			</div>
 		</header>
@@ -103,15 +102,15 @@
 					</div>
 				</div>
 			</div>
-			<div class="container">
+			<div class="container bor">
 				<div class="row">
 					<div class="col-md-3">
-						<div class="row">
+						<div class="row bor1">
 							<div class="col-md-12">
 									<h3>Giới thiệu</h3>
 									<ul>
 										<li><a href="">Lời chào mừng</a></li>
-										<li>
+										<li class="li-none">
 											<details>
 												<summary>Thông tin chung</summary>
 												<ul>
@@ -124,7 +123,7 @@
 												</ul>
 											</details>
 										</li>
-										<li>
+										<li class="li-none">
 											<details>
 												<summary>Lịch sử phát triển</summary>
 												<ul>
@@ -133,7 +132,7 @@
 												</ul>
 											</details>
 										</li>
-										<li>
+										<li class="li-none">
 											<details>
 												<summary>Cơ cấu tổ chức</summary>
 												<ul>
@@ -152,11 +151,11 @@
 									</ul>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row bor1">
 							<div class="col-md-12">
 									<h3>Công tác Đảng và Đoàn thể</h3>
 									<ul>
-										<li>
+										<li class="li-none">
 											<details>
 												<summary>Công tác đảng</summary>
 												<ul>
@@ -170,7 +169,7 @@
 												</ul>
 											</details>
 										</li>
-										<li>
+										<li class="li-none">
 											<details>
 												<summary>Tổ chức đoàn thể</summary>
 												<ul>
@@ -186,7 +185,7 @@
 								
 							</div>
 						</div>
-						<div class="row">
+						<div class="row bor1">
 							<div class="col-md-12">
 								<h3>Tuyển sinh</h3>
 									<ul>
@@ -197,7 +196,7 @@
 									</ul>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row bor1">
 							<div class="col-md-12">
 								<h3>Đào tạo</h3>
 									<ul>
@@ -208,7 +207,7 @@
 									</ul>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row bor1">
 							<div class="col-md-12">
 								<h3>Nghiên cứu khoa học</h3>
 									<ul>
@@ -220,7 +219,7 @@
 									</ul>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row bor1">
 							<div class="col-md-12">
 								<h3>Hợp tác quốc tế</h3>
 									<ul>
@@ -232,11 +231,11 @@
 									</ul>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row bor1">
 							<div class="col-md-12">
 								<h3>Hoạt động sinh viên</h3>
 									<ul>
-										<li>
+										<li class="li-none">
 											<details>
 												<summary>Công tác sinh viên</summary>
 												<ul>
@@ -254,13 +253,13 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="row">
+						<div class="row bor1 bor8">
 							<div class="col-md-12">
 								<h3>SỨ MẠNG VÀ MỤC TIÊU PHÁT TRIỂN</h3>
 									<p><i>"Sứ mạng của Trường Đại học Xây dựng là đào tạo nguồn nhân lực chất lượng cao, nghiên cứu khoa học  và chuyển giao công nghệ tiên tiến trong lĩnh vực xây dựng đáp ứng sự nghiệp công nghiệp hóa, hiện đại hóa đất nước và hội nhập quốc tế."</i></p>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row bor1">
 							<div class="col-md-12">
 								<h3>Tin tức</h3>
 									<!-- <img src="http://cuusinhvien.nuce.edu.vn/Content/BaiViet/AnhDaiDien/lekyniem_50nam_2.jpeg"> -->
@@ -276,7 +275,7 @@
 									</ul>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row bor1">
 							<div class="col-md-12">
 			                	<h3>Thông báo</h3>
 									<table>
@@ -298,7 +297,7 @@
 							</div>
 								
 						</div>
-						<div class="row">
+						<div class="row bor1">
 							<div class="col-md-12">
 									<table border="1" cellpadding="0" cellspacing="0">
 										<tr>
@@ -321,7 +320,7 @@
 						
 					</div>
 					<div class="col-md-3">
-						<div class="row">
+						<div class="row bor1">
 							<div class="col-md-12">
 								<h3>Sự kiện</h3>
 									<ul>
@@ -331,7 +330,7 @@
 									</ul>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row bor1">
 							<div class="col-md-12">
 								<h3>Khoa, Bộ môn trực thuộc</h3>
 									<ul>
@@ -356,7 +355,7 @@
 									</ul>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row bor1">
 							<div class="col-md-12">
 								<h3>Cơ sở Khoa học công nghệ</h3>
 									<ul>
@@ -365,7 +364,7 @@
 									</ul>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row bor1">
 							<div class="col-md-12">
 								<h3>Các cổng thông tin</h3>
 									<ul>
@@ -378,8 +377,8 @@
 							</div>
 						</div>
 					</div>
-	</div>
-</div>
+				</div>
+			</div>
 		</main>
 		<footer>
 			<div>
@@ -390,7 +389,7 @@
 						<td><a href="">Login</a></td>
 					</tr>
 				</table>
-				<p>Đại Học Xây Dựng 55 Giải Phóng, Hà Nội</p>
+				<p><strong>Bản quyền © 2019 Đại học Xây Dựng 55 Giải phóng, Hà nội</strong></p>
 			</div>
 		</footer>
 	</div>

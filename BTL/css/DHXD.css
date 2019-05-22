@@ -1,27 +1,36 @@
 button{
--webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-border-radius: 10px;}
-/*a.active {
-    border-bottom: none;
-    color: #112b80;
-}*/
+	-webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+}
 
 #logo1 {
 	margin: 20px;
 }
 
 #row1 {
-	background-color: #F5F1F1;
+	background-color: transparent;
 }
 
 .nav1 {
-	height: 38px;
 	background-color: #112b80;
+}
+
+.nav1 a {
+	height: 38px;
+	color: white;
+    box-shadow: 0px 1px 4px #7E7E7E;
+    height: 40px;
+        font-family: Arial,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            line-height: 1.5;
+    font-size: 12px;
+        background-position: 0px -98px
 }
 
 .but button {
 	background-color: #112b80;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 body {
@@ -33,6 +42,8 @@ body {
 #first {
 	background-color: #112b80;
 	text-align: right;
+	border-top: 4px solid #CC0000;
+
 	/*padding: 0px;*/
 }
 .menu1 a {
@@ -42,16 +53,50 @@ body {
 	font-size: 12px;
 	margin: 15px;
 }
-#second {
-	text-align: center;
+
+.bor {
+	border:2px solid;
+    /*border-color:black;*/
+    border-style: ridge;
+    font-size: 12px;
+    width: 494px;
+    padding-top: 20px;
 }
 
-#second div {
-	margin: 75px 100px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between; 
-	align-items: center;
-	float: none;
+.bor1 {
+	border:2px solid;
+    /*border-color:black;*/
+    border-style: ridge;
+    font-size: 12px;
+    /*width: 494px;*/
+    padding-top: 20px;
+}
+.bor1 h3{
+	border-bottom: 3px solid #cc0000;
+	font-size: 15px;
+	color: #112b80;
+	
+}
+
+.bor8 p{
+	    background:#D5DBDB;
+}
+
+.li-none {
+	list-style: none;
+}
+
+.main {
+	background-color: #F5F1F1;
+	padding: 0px;
+
+}
+footer div {
+	color: white;
+	background-color: #112b80;
+	text-align: center; 
+	padding: 5px 10px 3px 20px;
+    display: block;
+	border-top: 4px solid #CC0000;
+	font-size: 12px;
 }
