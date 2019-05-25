@@ -88,12 +88,17 @@ body {
 }
 
 .image {
-	height: 50px;
+	height: 60px;
 }
 
 .tab {
+	margin-top: 100px;
 	margin-left: 130px;
-	margin-bottom: 20px;
+	margin-bottom: 130px;
+}
+
+.cong {
+	margin-bottom: 135px;
 }
 
 footer div {
