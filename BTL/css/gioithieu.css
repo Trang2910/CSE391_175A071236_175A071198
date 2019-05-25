@@ -95,3 +95,12 @@ footer div {
 	border-top: 4px solid #CC0000;
 	font-size: 12px;
 }
+
+.a {
+	text-decoration: none;  /*dùng để bỏ phần gạch chân trong thẻ a*/
+	color: white;
+}
+
+.li-none {
+	list-style: none;
+}
