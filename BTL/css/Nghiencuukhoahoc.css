@@ -1,7 +1,28 @@
+body {
+	margin: 0px;
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
 button{
 	-webkit-appearance: push-button;
     user-select: none;
     white-space: pre;
+}
+
+.menu1 a {
+	text-decoration: none;  /*dùng để bỏ phần gạch chân trong thẻ a*/
+	color: white;
+	font-family: arial;
+	font-size: 12px;
+	margin: 15px;
+}
+
+#first {
+	background-color: #112b80;
+	text-align: right;
+	border-top: 4px solid #CC0000;
 }
 
 #logo1 {
@@ -27,29 +48,10 @@ button{
         background-position: 0px -98px
 }
 
-.but button {
-	background-color: #112b80;
-	padding-left: 20px;
-	padding-right: 20px;
-}
+.main {
+	background-color: #F5F1F1;
+	padding: 0px;
 
-body {
-	margin: 0px;
-	width: 100%;
-	padding-left: 0px;
-	padding-right: 0px;
-}
-#first {
-	background-color: #112b80;
-	text-align: right;
-	border-top: 4px solid #CC0000;
-}
-.menu1 a {
-	text-decoration: none;  /*dùng để bỏ phần gạch chân trong thẻ a*/
-	color: white;
-	font-family: arial;
-	font-size: 12px;
-	margin: 15px;
 }
 
 .bor {
@@ -73,33 +75,15 @@ body {
 	
 }
 
-.bor8 p{
-	    background:#D5DBDB;
+#hieutruong {
+	 float: right;
+     margin-left: 10px;
 }
 
-.li-none {
-	list-style: none;
-	
-}
-
-.main {
-	background-color: #F5F1F1;
+#h5 {
+	background-color: #28306d;
 	padding: 0px;
-
-}
-
-.image {
-	height: 60px;
-}
-
-.tab {
-	margin-top: 100px;
-	margin-left: 130px;
-	margin-bottom: 130px;
-}
-
-.cong {
-	margin-bottom: 135px;
+	color: #fff;
 }
 
 footer div {
@@ -115,4 +99,12 @@ footer div {
 .a {
 	text-decoration: none;  /*dùng để bỏ phần gạch chân trong thẻ a*/
 	color: white;
+}
+
+.li-none {
+	list-style: none;
+}
+.col-md-9 h3{
+    font-size: 15px;
+	color: #112b80;
 }
