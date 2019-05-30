@@ -1,3 +1,11 @@
+.main {
+	width: 100%;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	background-color: #F5F1F1;
+}
 button{
 	-webkit-appearance: push-button;
     user-select: none;
@@ -81,11 +89,6 @@ body {
 	list-style: none;
 }
 
-.main {
-	background-color: #F5F1F1;
-	padding: 0px;
-
-}
 
 .image {
 	height: 60px;

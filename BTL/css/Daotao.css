@@ -1,3 +1,11 @@
+.main {
+	width: 100%;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	background-color: #F5F1F1;
+}
 body {
 	margin: 0px;
 	width: 100%;
