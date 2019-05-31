@@ -89,6 +89,11 @@ body {
 	list-style: none;
 }
 
+.hot li{
+	list-style-image: url('http://nuce.edu.vn/themes/bartik/images/new.gif'); 
+	height: 18px;
+}
+
 
 .image {
 	height: 60px;
