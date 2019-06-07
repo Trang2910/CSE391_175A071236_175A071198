@@ -22,6 +22,8 @@ button{
 
 .nav1 {
 	background-color: #112b80;
+	width: 1364px;
+	overflow-x: hidden;
 }
 
 .nav1 a {
@@ -34,6 +36,13 @@ button{
     font-size: 12px;
         background-position: 0px -98px
 }
+
+.navthua {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+
 
 .but button {
 	background-color: #112b80;
