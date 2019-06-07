@@ -101,3 +101,7 @@ footer div {
 .li-none {
 	list-style: none;
 }
+
+.hidden {
+     display: none;
+}
