@@ -68,7 +68,12 @@ button{
     border-style: ridge;
     font-size: 12px;
     width: 494px;
-    margin-top: 20px;
+}
+
+.cont2 {
+	background-image: url('http://nuce.edu.vn/themes/bartik/images/bg-body.png');
+    background-position: left top; 
+    background-repeat: repeat-x;
 }
 
 .bor1 {
