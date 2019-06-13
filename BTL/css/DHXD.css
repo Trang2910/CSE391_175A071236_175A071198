@@ -17,14 +17,13 @@ button{
 }
 
 #row1 {
-	background-color: transparent;
+	/*background-color: transparent;*/
 }
 
 .nav1 {
 	background-color: #112b80;
 	width: 1364px;
 	overflow-x: hidden;
-	/*margin-bottom: 10px;*/
 }
 
 .nav1 a {
